@@ -1,0 +1,101 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {}
+  
+  h2 {}
+  
+  h3 {}
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
+  /* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+  .login{
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+  }
+
+  button {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .perfiles{
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      background: black;
+      color: white;
+      display: grid;
+      align-items: center;
+      padding: 2px;
+      font-size: 1.3em;
+  }
+
+  .users-list{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }

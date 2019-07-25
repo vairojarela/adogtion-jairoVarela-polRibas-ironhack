@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>ADOGTION</title>
+  <link rel="icon" type="image/png" href="/images/beer.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+  <header>
+  {{#if currentUser}}
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+  {{/if}}
+  </header>
+  <main>
+    {{{body}}}
+  </main>
+  <footer>
+  {{#if currentUser}}
+    <form action="/auth/logout" method="POST">
+        <button type="submit">Logout</button>
+    </form>
+  {{/if}}
+  </footer>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
