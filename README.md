@@ -113,14 +113,14 @@ List of other features outside of the MVPs scope
   - redirects to / if user is anonymous
   - body: updated values from form
 
-## VIEWS:
+## Views
 
 - Landing Page
 - Login & Signup
 - (Only for Regular User) -> User feed (settings, messages/notifications, filter, perfil)
 - (Only for Animal Shelter) -> User feed (settings, messages/notifications, new adoptetive dog, corporative perfil)
 
-## MODELS
+## Models
 
 ### User
   - username (unique)
@@ -158,7 +158,7 @@ List of other features outside of the MVPs scope
   - dogId -> ObjectId
   - message String
   
-## MIDDLEWARES:
+## Middlewares
 
 -isLoggedIn (access to all the application, except signup and login view)
 -isNotLoggedIn (only access to signUp and LogIn. May include backlog to Landing Page)
