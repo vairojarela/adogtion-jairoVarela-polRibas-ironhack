@@ -157,9 +157,7 @@ Models
 
 The url to your repository and to your deployed project
 
-[Repository Link](http://github.com)
-
-[Deploy Link](http://heroku.com)
+[Repository Link](https://github.com/PolRibas/adogtion-jairoVarela-polRibas-ironhack)
 
 ### Slides
 
