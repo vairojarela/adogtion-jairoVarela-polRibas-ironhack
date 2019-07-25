@@ -2,11 +2,11 @@
 
 ## Description
 
-Small app for conect animal shelter with users that want adopt a new ped.
-This app have two differents users:
+Express app for connecting animal shelters with users that want adopt a new pet.
+
+This app has two differents users:
     - Regular User
     - Animal Shelter
-code by: Jairo Varela and Pol Ribas for Ironhack WEV-DEV Bootcamp
  
 ## User Stories
 
@@ -38,7 +38,7 @@ Geo Location:
 - show all events in a map in the event list page
 
 Homepage
-- ...
+- Landing page explaining the app's purpose and what it's all about.
 
 
 ## ROUTES:
@@ -48,7 +48,7 @@ Homepage
 
  SignUp, Homepage
 
-- splashScreen
+- Landing Page
 - signUp
 - logIn
 - userFeed (only available for Regular User)
@@ -58,12 +58,15 @@ Homepage
 
 -Authorization and Authentication for both users.
 -Password encryption
-Views:
+
+## VIEWS:
+
 - Landing Page
 - Login & Signup
 - (Only for Regular User) -> User feed (settings, messages/notifications, filter, perfil)
 - (Only for Animal Shelter) -> User feed (settings, messages/notifications, new adoptetive dog, corporative perfil)
-Models
+
+## MODELS
 
 - GET / 
   - renders the homepage
